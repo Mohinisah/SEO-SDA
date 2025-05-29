@@ -1,140 +1,338 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Why Trust Blue Minch</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700;800&display=swap" rel="stylesheet">
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+.SEO {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
 
-    body {
-      font-family: 'Inter', sans-serif;
-      background-color: #ffffff;
-      color: #000;
-    }
+.SEO .div {
+  background-color: #ffffff;
+  overflow-x: hidden;
+  width: 440px;
+  height: 4558px;
+  position: relative;
+}
 
-    .SEO {
-      width: 100%;
-      padding: 24px 16px;
-    }
+.SEO .frame {
+  position: absolute;
+  width: 440px;
+  height: 1403px;
+  top: 0;
+  left: 0;
+}
 
-    .trust-section {
-      max-width: 420px;
-      margin: 0 auto;
-    }
+.SEO .frame-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 411px;
+  height: 807px;
+  align-items: center;
+  gap: 32px;
+  position: absolute;
+  top: 1403px;
+  left: 14px;
+}
 
-    .trust-heading {
-      font-size: 32px;
-      font-weight: 800;
-      line-height: 1.2;
-      margin-bottom: 14px;
-      color: #000;
-    }
+.SEO .frame-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+  padding: 25px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
 
-    .trust-heading .highlight {
-      color: #1877f2;
-    }
+.SEO .rectangle-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 363px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
 
-    .trust-subtext {
-      font-size: 18px;
-      font-weight: 700;
-      line-height: 1.5;
-      color: #1a1a1a;
-      margin-bottom: 28px;
-    }
+.SEO .rectangle {
+  position: relative;
+  width: 113px;
+  height: 45px;
+  background-color: #ffffff;
+}
 
-    .trust-card {
-      display: flex;
-      align-items: center;
-      background: linear-gradient(90deg, #2196f3 0%, #0b79d0 100%);
-      border-radius: 12px;
-      padding: 20px 16px;
-      gap: 14px;
-      margin-bottom: 18px;
-      color: #ffffff;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-      min-height: 96px;
-    }
+.SEO .kolkatas-fastest-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0px 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
 
-    .card-icon {
-      width: 32px;
-      height: 32px;
-      flex-shrink: 0;
-    }
+.SEO .kolkatas-fastest {
+  position: relative;
+  width: 323.52px;
+  height: 37.81px;
+}
 
-    .card-text {
-      font-size: 20px;
-      font-weight: 700;
-      line-height: 1.5;
-    }
+.SEO .points {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
 
-    .bottom-graphics {
-      margin-top: 40px;
-      text-align: center;
-    }
+.SEO .point {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 96px;
+}
 
-    .bottom-graphics img {
-      max-width: 100%;
-      height: auto;
-    }
+.SEO .overlap {
+  position: relative;
+  width: 395px;
+  height: 96px;
+  left: 10px;
+}
 
-    @media (max-width: 480px) {
-      .trust-heading {
-        font-size: 28px;
-      }
+.SEO .overlap-group-wrapper {
+  position: absolute;
+  width: 395px;
+  height: 96px;
+  top: 0;
+  left: 0;
+}
 
-      .card-text {
-        font-size: 18px;
-      }
+.SEO .overlap-group {
+  position: relative;
+  width: 392px;
+  height: 96px;
+  border-radius: 6px;
+}
 
-      .SEO {
-        padding: 16px;
-      }
-    }
-  </style>
-</head>
-<body>
-  <div class="SEO">
-    <section class="trust-section">
-      <h1 class="trust-heading">Why <span class="highlight">TRUST</span><br>Blue Minch</h1>
-      <p class="trust-subtext">Kolkata’s Fastest Growing SEO Team<br>- Trusted by 150+ Businesses</p>
+.SEO .element-SEO-professionals {
+  position: absolute;
+  width: 254px;
+  height: 49px;
+  top: 25px;
+  left: 68px;
+}
 
-      <div class="trust-card">
-        <img src="https://img.icons8.com/ios-filled/32/ffffff/conference-call.png" class="card-icon" alt="SEO Icon" />
-        <p class="card-text">80+ SEO professionals<br>(in-house & remote)</p>
-      </div>
+.SEO .professionals {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 29px;
+  left: 24px;
+}
 
-      <div class="trust-card">
-        <img src="https://img.icons8.com/ios-filled/32/ffffff/worldwide-location.png" class="card-icon" alt="Location Icon" />
-        <p class="card-text">Offices in Kolkata, Siliguri,<br>Guwahati</p>
-      </div>
+.SEO .group {
+  height: 31px;
+}
 
-      <div class="trust-card">
-        <img src="https://img.icons8.com/ios-filled/32/ffffff/layers.png" class="card-icon" alt="Layer Icon" />
-        <p class="card-text">3-Layer Quality Check</p>
-      </div>
+.SEO .group-2 {
+  position: relative;
+  width: 32px;
+  height: 31px;
+}
 
-      <div class="trust-card">
-        <img src="https://img.icons8.com/ios-filled/32/ffffff/handshake.png" class="card-icon" alt="Trust Icon" />
-        <p class="card-text">Trusted by global<br>marketing agencies</p>
-      </div>
+.SEO .img {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  top: 8px;
+  left: 2px;
+}
 
-      <div class="trust-card">
-        <img src="https://img.icons8.com/ios-filled/32/ffffff/approval.png" class="card-icon" alt="White Hat Icon" />
-        <p class="card-text">100% white-hat<br>and report-backed SEO</p>
-      </div>
-    </section>
+.SEO .group-3 {
+  position: absolute;
+  width: 8px;
+  height: 7px;
+  top: 0;
+  left: 1px;
+}
 
-    <div class="bottom-graphics">
-      <img src="https://c.animaapp.com/mb6dvposPdyl6T/img/frame-6.png" alt="Decorative Graphic">
-      <img src="https://c.animaapp.com/mb6dvposPdyl6T/img/frame-02.png" alt="Decorative Graphic 2">
-    </div>
-  </div>
-</body>
-</html>
-S
+.SEO .group-4 {
+  position: absolute;
+  width: 10px;
+  height: 17px;
+  top: 15px;
+  left: 0;
+}
+
+.SEO .group-5 {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  top: 8px;
+  left: 24px;
+}
+
+.SEO .group-6 {
+  position: absolute;
+  width: 10px;
+  height: 17px;
+  top: 15px;
+  left: 11px;
+}
+
+.SEO .group-7 {
+  position: absolute;
+  width: 8px;
+  height: 7px;
+  top: 0;
+  left: 23px;
+}
+
+.SEO .group-8 {
+  position: absolute;
+  width: 8px;
+  height: 7px;
+  top: 0;
+  left: 12px;
+}
+
+.SEO .group-9 {
+  position: absolute;
+  width: 10px;
+  height: 17px;
+  top: 15px;
+  left: 22px;
+}
+
+.SEO .group-10 {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  top: 8px;
+  left: 13px;
+}
+
+.SEO .offices-in-kolkata {
+  position: absolute;
+  width: 300px;
+  height: 45px;
+  top: 25px;
+  left: 68px;
+}
+
+.SEO .img-2 {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 32px;
+  left: 24px;
+}
+
+.SEO .element-layer-quality {
+  position: absolute;
+  width: 253px;
+  height: 22px;
+  top: 39px;
+  left: 67px;
+}
+
+.SEO .layer {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 35px;
+  left: 28px;
+}
+
+.SEO .trusted-by-global {
+  position: absolute;
+  width: 230px;
+  height: 48px;
+  top: 26px;
+  left: 67px;
+}
+
+.SEO .relationship {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 30px;
+  left: 22px;
+}
+
+.SEO .element-white-hat-and {
+  position: absolute;
+  width: 268px;
+  height: 49px;
+  top: 25px;
+  left: 67px;
+}
+
+.SEO .img-wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  top: 2210px;
+  left: 0;
+}
+
+.SEO .frame-3 {
+  position: relative;
+  width: 440px;
+  height: 954px;
+  margin-bottom: -65.00px;
+}
+
+.SEO .overlap-2 {
+  position: absolute;
+  width: 816px;
+  height: 1459px;
+  top: 3099px;
+  left: 0;
+}
+
+.SEO .rectangle-2 {
+  position: absolute;
+  width: 440px;
+  height: 425px;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    132deg,
+    rgba(109, 173, 255, 1) 0%,
+    rgba(0, 105, 250, 1) 100%
+  );
+}
+
+.SEO .frame-4 {
+  position: absolute;
+  width: 816px;
+  height: 1459px;
+  top: 0;
+  left: 0;
+}
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
