@@ -1,58 +1,3 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
-
-:root {
-  --primary-color: #0062F8;
-  --secondary-color: #6DADFF;
-  --text-color: #141414;
-  --background-color: #FFFFFF;
-}
-
-* {
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-}
-
-html,
-body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
-
-body {
-  font-family: "Montserrat", sans-serif;
-  line-height: 1.5;
-  color: var(--text-color);
-  background-color: var(--background-color);
-}
-
-button:focus-visible,
-a:focus-visible {
-  outline: 2px solid #4a90e2;
-  outline-offset: 2px;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-}   
 .SEO {
   background-color: #ffffff;
   display: flex;
@@ -65,1044 +10,11 @@ img {
   background-color: #ffffff;
   overflow-x: hidden;
   width: 440px;
-  height: 9631px;
+  height: 4558px;
   position: relative;
-}
-
-.SEO .overlap {
-  position: absolute;
-  width: 441px;
-  height: 6108px;
-  top: 3546px;
-  left: 0;
-}
-
-.SEO .rectangle {
-  position: absolute;
-  width: 440px;
-  height: 121px;
-  top: 3158px;
-  left: 0;
-}
-
-.SEO .img {
-  position: absolute;
-  width: 440px;
-  height: 121px;
-  top: 3915px;
-  left: 0;
-}
-
-.SEO .rectangle-2 {
-  position: absolute;
-  width: 440px;
-  height: 121px;
-  top: 4762px;
-  left: 0;
-}
-
-.SEO .rectangle-3 {
-  position: absolute;
-  width: 440px;
-  height: 121px;
-  top: 2030px;
-  left: 0;
-  background: linear-gradient(
-    1deg,
-    rgba(0, 98, 248, 1) 0%,
-    rgba(0, 0, 0, 0) 80%
-  );
-  opacity: 0.1;
-}
-
-.SEO .rectangle-4 {
-  position: absolute;
-  width: 440px;
-  height: 121px;
-  top: 5559px;
-  left: 0;
-  background: linear-gradient(
-    1deg,
-    rgba(0, 98, 248, 1) 0%,
-    rgba(0, 0, 0, 0) 80%
-  );
-  opacity: 0.1;
 }
 
 .SEO .frame {
-  display: flex;
-  flex-direction: column;
-  width: 440px;
-  height: 6108px;
-  align-items: flex-start;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.SEO .frame-2 {
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  height: 562px;
-}
-
-.SEO .frame-3 {
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  height: 525px;
-}
-
-.SEO .frame-wrapper {
-  display: flex;
-  height: 1087px;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 10px;
-  padding: 25px 0px;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-}
-
-.SEO .frame-4 {
-  display: flex;
-  flex-direction: column;
-  width: 411px;
-  height: 712px;
-  align-items: flex-start;
-  gap: 25px;
-  position: relative;
-}
-
-.SEO .rectangle-5 {
-  position: relative;
-  width: 113px;
-  height: 45px;
-  background-color: #ffffff;
-}
-
-.SEO .frame-5 {
-  display: flex;
-  flex-direction: column;
-  width: 363px;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 0px 10px;
-  position: relative;
-  flex: 0 0 auto;
-}
-
-.SEO .whats-included-in {
-  position: relative;
-  width: 309.26px;
-  height: 13.58px;
-}
-
-.SEO .points {
-  align-items: flex-start;
-  margin-bottom: -317.00px;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-}
-
-.SEO .point {
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  height: 96px;
-}
-
-.SEO .overlap-group {
-  position: relative;
-  width: 395px;
-  height: 96px;
-  left: 10px;
-}
-
-.SEO .overlap-group-wrapper {
-  position: absolute;
-  width: 395px;
-  height: 96px;
-  top: 0;
-  left: 0;
-}
-
-.SEO .img-wrapper {
-  width: 392px;
-  position: relative;
-  height: 96px;
-  border-radius: 6px;
-}
-
-.SEO .local-SEO-GMB {
-  position: absolute;
-  width: 196px;
-  height: 48px;
-  top: 26px;
-  left: 68px;
-}
-
-.SEO .searching {
-  position: absolute;
-  width: 33px;
-  height: 32px;
-  top: 30px;
-  left: 22px;
-  overflow: hidden;
-}
-
-.SEO .layer {
-  position: relative;
-  width: 657px;
-  height: 512px;
-  top: 1px;
-  left: 1px;
-}
-
-.SEO .path {
-  position: absolute;
-  width: 31px;
-  height: 30px;
-  top: 0;
-  left: 0;
-}
-
-.SEO .files {
-  position: absolute;
-  width: 512px;
-  height: 512px;
-  top: -4844px;
-  left: 99px;
-}
-
-.SEO .on-page-SEO-titles {
-  position: absolute;
-  width: 303px;
-  height: 49px;
-  top: 25px;
-  left: 67px;
-}
-
-.SEO .files-2 {
-  left: 26px;
-  position: absolute;
-  width: 26px;
-  height: 26px;
-  top: 33px;
-}
-
-.SEO .high-quality {
-  position: absolute;
-  width: 258px;
-  height: 76px;
-  top: 12px;
-  left: 69px;
-}
-
-.SEO .link {
-  position: absolute;
-  width: 31px;
-  height: 31px;
-  top: 31px;
-  left: 22px;
-}
-
-.SEO .group {
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  top: 3px;
-  left: 3px;
-}
-
-.SEO .element-manual-keyword {
-  position: absolute;
-  width: 255px;
-  height: 75px;
-  top: 13px;
-  left: 67px;
-}
-
-.SEO .puzzle {
-  position: absolute;
-  width: 32px;
-  height: 32px;
-  top: 31px;
-  left: 22px;
-}
-
-.SEO .weekly-progress {
-  position: absolute;
-  width: 289px;
-  height: 48px;
-  top: 26px;
-  left: 67px;
-}
-
-.SEO .report {
-  position: absolute;
-  width: 32px;
-  height: 31px;
-  top: 33px;
-  left: 22px;
-}
-
-.SEO .monthly-strategic {
-  position: absolute;
-  width: 250px;
-  height: 49px;
-  top: 25px;
-  left: 69px;
-}
-
-.SEO .img-2 {
-  position: absolute;
-  width: 32px;
-  height: 32px;
-  top: 30px;
-  left: 22px;
-}
-
-.SEO .SEO-blogs-written {
-  position: absolute;
-  width: 211px;
-  height: 45px;
-  top: 25px;
-  left: 68px;
-}
-
-.SEO .contract {
-  position: absolute;
-  width: 28px;
-  height: 28px;
-  top: 33px;
-  left: 24px;
-  overflow: hidden;
-}
-
-.SEO .overlap-2 {
-  position: relative;
-  width: 29px;
-  height: 28px;
-}
-
-.SEO .group-2 {
-  position: absolute;
-  width: 5px;
-  height: 5px;
-  top: 0;
-  left: 16px;
-  background-image: url(https://c.animaapp.com/bpeyWeYm/img/group-10@2x.png);
-  background-size: 100% 100%;
-}
-
-.SEO .group-3 {
-  position: absolute;
-  width: 21px;
-  height: 28px;
-  top: 0;
-  left: 0;
-  background-image: url(https://c.animaapp.com/bpeyWeYm/img/group-11@2x.png);
-  background-size: 100% 100%;
-}
-
-.SEO .group-4 {
-  position: absolute;
-  width: 3px;
-  height: 3px;
-  top: 18px;
-  left: 16px;
-  background-image: url(https://c.animaapp.com/bpeyWeYm/img/group-12@2x.png);
-  background-size: 100% 100%;
-}
-
-.SEO .group-5 {
-  position: absolute;
-  width: 8px;
-  height: 8px;
-  top: 11px;
-  left: 17px;
-  background-image: url(https://c.animaapp.com/bpeyWeYm/img/group-13@2x.png);
-  background-size: 100% 100%;
-}
-
-.SEO .group-6 {
-  position: absolute;
-  width: 4px;
-  height: 4px;
-  top: 8px;
-  left: 24px;
-  background-image: url(https://c.animaapp.com/bpeyWeYm/img/group-14@2x.png);
-  background-size: 100% 100%;
-}
-
-.SEO .group-7 {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  top: 11px;
-  left: 28px;
-  background-image: url(https://c.animaapp.com/bpeyWeYm/img/group-15@2x.png);
-  background-size: 100% 100%;
-}
-
-.SEO .manual-technical {
-  position: absolute;
-  width: 268px;
-  height: 45px;
-  top: 25px;
-  left: 69px;
-}
-
-.SEO .div-wrapper {
-  display: flex;
-  height: 1128px;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 10px;
-  padding: 25px 0px;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-}
-
-.SEO .rectangle-6 {
-  position: relative;
-  width: 113px;
-  height: 35px;
-  background-color: #ffffff;
-}
-
-.SEO .transparent-pricing-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 0px 10px;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-}
-
-.SEO .transparent-pricing {
-  position: relative;
-  width: 281.22px;
-  height: 34.52px;
-}
-
-.SEO .FAQ-open-wrapper {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-}
-
-.SEO .FAQ-open {
-  position: relative;
-  width: 391.5px;
-  height: 293px;
-}
-
-.SEO .overlap-3 {
-  height: 293px;
-  position: relative;
-  width: 395px;
-}
-
-.SEO .rectangle-7 {
-  position: absolute;
-  width: 391px;
-  height: 293px;
-  top: 0;
-  left: 0;
-  background-color: #ffffff;
-  border-radius: 6px;
-  border: none;
-}
-
-.SEO .rectangle-7::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  padding: 1px;
-  border-radius: 6px;
-/*background*/
-  z-index: 1;
-  pointer-events: none;
-}
-
-.SEO .overlap-group-2 {
-  width: 391px;
-  position: relative;
-  height: 96px;
-  border-radius: 6px;
-}
-
-.SEO .silver-plan {
-  position: absolute;
-  width: 274px;
-  height: 58px;
-  top: 24px;
-  left: 21px;
-}
-
-.SEO .image {
-  position: absolute;
-  width: 71px;
-  height: 71px;
-  top: 16px;
-  left: 299px;
-}
-
-.SEO .points-2 {
-  align-items: center;
-  justify-content: center;
-  margin-bottom: -79.00px;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-}
-
-.SEO .overlap-wrapper {
-  position: relative;
-  width: 391.75px;
-  height: 285px;
-}
-
-.SEO .overlap-4 {
-  height: 285px;
-  position: relative;
-  width: 395px;
-}
-
-.SEO .rectangle-8 {
-  height: 285px;
-  position: absolute;
-  width: 391px;
-  top: 0;
-  left: 1px;
-  background-color: #ffffff;
-  border-radius: 6px;
-  border: none;
-}
-
-.SEO .rectangle-8::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  padding: 1px;
-  border-radius: 6px;
-
-  z-index: 1;
-  pointer-events: none;
-}
-
-.SEO .gold-plan {
-  position: absolute;
-  width: 283px;
-  height: 57px;
-  top: 25px;
-  left: 21px;
-}
-
-.SEO .group-8 {
-  position: absolute;
-  width: 368px;
-  height: 144px;
-  top: 121px;
-  left: 21px;
-}
-
-.SEO .text-wrapper {
-  position: absolute;
-  width: 232px;
-  top: 120px;
-  left: 17px;
-  font-family: "Montserrat", Helvetica;
-  font-weight: 700;
-  color: #000000;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: 12px;
-}
-
-.SEO .points-3 {
-  align-items: center;
-  justify-content: center;
-  margin-bottom: -366.00px;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-}
-
-.SEO .FAQ-open-2 {
-  position: relative;
-  width: 391.88px;
-  height: 262px;
-}
-
-.SEO .overlap-5 {
-  height: 262px;
-  position: relative;
-  width: 395px;
-}
-
-.SEO .rectangle-9 {
-  height: 262px;
-  position: absolute;
-  width: 391px;
-  top: 0;
-  left: 1px;
-  background-color: #ffffff;
-  border-radius: 6px;
-  border: none;
-}
-
-.SEO .rectangle-9::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  padding: 1px;
-  border-radius: 6px;
-  mask-composite: exclude;
-  z-index: 1;
-  pointer-events: none;
-}
-
-.SEO .platinum-plan {
-  position: absolute;
-  width: 280px;
-  height: 58px;
-  top: 22px;
-  left: 22px;
-}
-
-.SEO .frame-6 {
-  display: flex;
-  height: 757px;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 10px;
-  padding: 25px 0px;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-}
-
-.SEO .frame-7 {
-  width: 411px;
-  height: 712px;
-  margin-bottom: -5.00px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 25px;
-  position: relative;
-}
-
-.SEO .why-kolkata {
-  position: relative;
-  width: 288.43px;
-  height: 34.52px;
-}
-
-.SEO .div-2 {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-}
-
-.SEO .live-worksheet {
-  position: absolute;
-  width: 265px;
-  height: 57px;
-  top: 22px;
-  left: 67px;
-}
-
-.SEO .files-3 {
-  left: 24px;
-  position: absolute;
-  width: 26px;
-  height: 26px;
-  top: 33px;
-}
-
-.SEO .weekly-reports-sent {
-  position: absolute;
-  width: 192px;
-  height: 56px;
-  top: 21px;
-  left: 67px;
-}
-
-.SEO .monthly-strategy {
-  position: absolute;
-  width: 287px;
-  height: 39px;
-  top: 31px;
-  left: 69px;
-}
-
-.SEO .curated-keyword {
-  position: absolute;
-  width: 310px;
-  height: 52px;
-  top: 23px;
-  left: 67px;
-}
-
-.SEO .manual-SEO-audit {
-  position: absolute;
-  width: 206px;
-  height: 57px;
-  top: 22px;
-  left: 69px;
-}
-
-.SEO .logistics-management {
-  position: absolute;
-  width: 32px;
-  height: 32px;
-  top: 35px;
-  left: 22px;
-}
-
-.SEO .frame-8 {
-  display: flex;
-  flex-direction: column;
-  width: 440px;
-  height: 847px;
-  align-items: flex-start;
-  gap: 25px;
-  padding: 76px 24px;
-  position: relative;
-}
-
-.SEO .FA-qs {
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  height: 30.55px;
-}
-
-.SEO .frame-9 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 25px;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  margin-bottom: -50.78px;
-}
-
-.SEO .FAQ-open-3 {
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  height: 195px;
-}
-
-.SEO .FAQ-open-4 {
-  position: relative;
-  width: 391px;
-  height: 195px;
-  background-color: #ffffff;
-  border-radius: 6px;
-}
-
-.SEO .how-soon-can-i-see {
-  position: absolute;
-  width: 219px;
-  height: 43px;
-  top: 28px;
-  left: 22px;
-}
-
-.SEO .group-9 {
-  position: absolute;
-  width: 366px;
-  height: 57px;
-  top: 121px;
-  left: 20px;
-}
-
-.SEO .p {
-  position: absolute;
-  width: 350px;
-  top: 0;
-  left: 14px;
-  font-family: "Montserrat", Helvetica;
-  font-weight: 700;
-  color: #141414;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.SEO .ellipse {
-  position: absolute;
-  width: 11px;
-  height: 11px;
-  top: 3px;
-  left: 0;
-  border-radius: 5.5px;
-  background: linear-gradient(
-    125deg,
-    rgba(0, 98, 248, 1) 0%,
-    rgba(0, 71, 169, 1) 100%
-  );
-}
-
-.SEO .FAQ-wrapper {
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  height: 96.44px;
-}
-
-.SEO .FAQ {
-  width: 395px;
-  height: 96px;
-}
-
-.SEO .is-this-suitable-for {
-  position: absolute;
-  width: 240px;
-  height: 44px;
-  top: 26px;
-  left: 20px;
-}
-
-.SEO .can-i-cancel-anytime {
-  position: absolute;
-  width: 251px;
-  height: 22px;
-  top: 39px;
-  left: 21px;
-}
-
-.SEO .how-do-i-track-the {
-  position: absolute;
-  width: 211px;
-  height: 48px;
-  top: 27px;
-  left: 21px;
-}
-
-.SEO .will-someone-assist {
-  position: absolute;
-  width: 241px;
-  height: 76px;
-  top: 12px;
-  left: 20px;
-}
-
-.SEO .frame-10 {
-  display: flex;
-  height: 862px;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 10px;
-  padding: 76px 0px;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-}
-
-.SEO .frame-11 {
-  position: relative;
-  flex: 0 0 auto;
-  height: 721px;
-  margin-bottom: -11.00px;
-}
-
-.SEO .footer {
-  display: flex;
-  flex-direction: column;
-  width: 441px;
-  align-items: flex-start;
-  position: absolute;
-  top: 5680px;
-  left: 0;
-  background-color: transparent;
-}
-
-.SEO .rectangle-10 {
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  height: 275px;
-  border-radius: 10px;
-  background: linear-gradient(
-    132deg,
-    rgba(109, 173, 255, 1) 0%,
-    rgba(0, 105, 250, 1) 100%
-  );
-}
-
-.SEO .frame-12 {
-  display: flex;
-  flex-direction: column;
-  height: 130px;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-}
-
-.SEO .frame-13 {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 25px;
-  position: relative;
-  flex: 0 0 auto;
-}
-
-.SEO .facebook {
-  position: relative;
-  width: 36px;
-  height: 36px;
-  background-image: url(https://c.animaapp.com/bpeyWeYm/img/group-16.svg);
-  background-size: 100% 100%;
-}
-
-.SEO .img-3 {
-  position: relative;
-  width: 36px;
-  height: 36px;
-}
-
-.SEO .youtube {
-  position: relative;
-  width: 45px;
-  height: 45px;
-}
-
-.SEO .copyright-all {
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  height: 16.81px;
-}
-
-.SEO .frame-14 {
-  display: flex;
-  flex-direction: column;
-  width: 354px;
-  align-items: flex-start;
-  gap: 40px;
-  position: absolute;
-  top: 35px;
-  left: 14px;
-}
-
-.SEO .asset-wrapper {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 10px;
-  padding: 0px 10px;
-  position: relative;
-  flex: 0 0 auto;
-}
-
-.SEO .asset {
-  position: relative;
-  width: 114.63px;
-  height: 65px;
-  object-fit: cover;
-}
-
-.SEO .group-10 {
-  position: relative;
-  width: 358px;
-  height: 25px;
-  margin-right: -4.00px;
-}
-
-.SEO .text-wrapper-2 {
-  position: absolute;
-  width: 317px;
-  top: 0;
-  left: 37px;
-  font-family: "Montserrat", Helvetica;
-  font-weight: 700;
-  color: #ffffff;
-  font-size: 22px;
-  letter-spacing: 0;
-  line-height: 23px;
-  white-space: nowrap;
-}
-
-.SEO .image-2 {
-  position: absolute;
-  width: 14px;
-  height: 14px;
-  top: 4px;
-  left: 12px;
-}
-
-.SEO .image-3 {
-  position: absolute;
-  width: 14px;
-  height: 14px;
-  top: 3px;
-  left: 12px;
-}
-
-.SEO .group-11 {
-  position: relative;
-  width: 358px;
-  height: 26px;
-  margin-right: -4.00px;
-}
-
-.SEO .text-wrapper-3 {
-  position: absolute;
-  width: 317px;
-  top: 1px;
-  left: 37px;
-  font-family: "Montserrat", Helvetica;
-  font-weight: 700;
-  color: #ffffff;
-  font-size: 22px;
-  letter-spacing: 0;
-  line-height: 23px;
-  white-space: nowrap;
-}
-
-.SEO .frame-15 {
   position: absolute;
   width: 440px;
   height: 1403px;
@@ -1110,7 +22,7 @@ img {
   left: 0;
 }
 
-.SEO .frame-16 {
+.SEO .frame-wrapper {
   display: flex;
   flex-direction: column;
   width: 411px;
@@ -1122,16 +34,34 @@ img {
   left: 14px;
 }
 
-.SEO .frame-17 {
-  padding: 25px 0px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
+.SEO .frame-2 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 25px;
+  padding: 25px 0px;
   position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.SEO .rectangle-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 363px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.SEO .rectangle {
+  position: relative;
+  width: 113px;
+  height: 45px;
+  background-color: #ffffff;
 }
 
 .SEO .kolkatas-fastest-wrapper {
@@ -1150,6 +80,46 @@ img {
   height: 37.81px;
 }
 
+.SEO .points {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.SEO .point {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 96px;
+}
+
+.SEO .overlap {
+  position: relative;
+  width: 395px;
+  height: 96px;
+  left: 10px;
+}
+
+.SEO .overlap-group-wrapper {
+  position: absolute;
+  width: 395px;
+  height: 96px;
+  top: 0;
+  left: 0;
+}
+
+.SEO .overlap-group {
+  position: relative;
+  width: 392px;
+  height: 96px;
+  border-radius: 6px;
+}
+
 .SEO .element-SEO-professionals {
   position: absolute;
   width: 254px;
@@ -1166,17 +136,17 @@ img {
   left: 24px;
 }
 
-.SEO .group-wrapper {
+.SEO .group {
   height: 31px;
 }
 
-.SEO .group-12 {
+.SEO .group-2 {
   position: relative;
   width: 32px;
   height: 31px;
 }
 
-.SEO .group-13 {
+.SEO .img {
   position: absolute;
   width: 6px;
   height: 6px;
@@ -1184,7 +154,7 @@ img {
   left: 2px;
 }
 
-.SEO .group-14 {
+.SEO .group-3 {
   position: absolute;
   width: 8px;
   height: 7px;
@@ -1192,7 +162,7 @@ img {
   left: 1px;
 }
 
-.SEO .group-15 {
+.SEO .group-4 {
   position: absolute;
   width: 10px;
   height: 17px;
@@ -1200,7 +170,7 @@ img {
   left: 0;
 }
 
-.SEO .group-16 {
+.SEO .group-5 {
   position: absolute;
   width: 6px;
   height: 6px;
@@ -1208,7 +178,7 @@ img {
   left: 24px;
 }
 
-.SEO .group-17 {
+.SEO .group-6 {
   position: absolute;
   width: 10px;
   height: 17px;
@@ -1216,7 +186,7 @@ img {
   left: 11px;
 }
 
-.SEO .group-18 {
+.SEO .group-7 {
   position: absolute;
   width: 8px;
   height: 7px;
@@ -1224,7 +194,7 @@ img {
   left: 23px;
 }
 
-.SEO .group-19 {
+.SEO .group-8 {
   position: absolute;
   width: 8px;
   height: 7px;
@@ -1232,7 +202,7 @@ img {
   left: 12px;
 }
 
-.SEO .group-20 {
+.SEO .group-9 {
   position: absolute;
   width: 10px;
   height: 17px;
@@ -1240,7 +210,7 @@ img {
   left: 22px;
 }
 
-.SEO .group-21 {
+.SEO .group-10 {
   position: absolute;
   width: 6px;
   height: 6px;
@@ -1256,7 +226,7 @@ img {
   left: 68px;
 }
 
-.SEO .img-4 {
+.SEO .img-2 {
   position: absolute;
   width: 32px;
   height: 32px;
@@ -1272,7 +242,7 @@ img {
   left: 67px;
 }
 
-.SEO .layer-2 {
+.SEO .layer {
   position: absolute;
   width: 25px;
   height: 25px;
@@ -1304,7 +274,7 @@ img {
   left: 67px;
 }
 
-.SEO .frame-18 {
+.SEO .img-wrapper {
   display: inline-flex;
   align-items: center;
   gap: 10px;
@@ -1313,22 +283,22 @@ img {
   left: 0;
 }
 
-.SEO .frame-19 {
+.SEO .frame-3 {
   position: relative;
   width: 440px;
   height: 954px;
   margin-bottom: -65.00px;
 }
 
-.SEO .overlap-6 {
+.SEO .overlap-2 {
   position: absolute;
   width: 816px;
-  height: 425px;
+  height: 1459px;
   top: 3099px;
   left: 0;
 }
 
-.SEO .rectangle-11 {
+.SEO .rectangle-2 {
   position: absolute;
   width: 440px;
   height: 425px;
@@ -1341,691 +311,28 @@ img {
   );
 }
 
-.SEO .frame-20 {
+.SEO .frame-4 {
   position: absolute;
   width: 816px;
-  height: 424px;
+  height: 1459px;
   top: 0;
   left: 0;
 }
-.SEO {
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  max-width: 440px;
-  margin: 0 auto;
-  overflow-x: hidden;
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
 }
-
-.SEO .div {
-  width: 100%;
-  position: relative;
-}
-
-.SEO .overlap {
-  position: relative;
-  width: 100%;
-  max-width: 441px;
-}
-
-.SEO .rectangle {
-  width: 100%;
-  max-width: 440px;
-  height: auto;
-}
-
-.SEO .img {
-  width: 100%;
-  max-width: 440px;
-  height: auto;
-}
-
-.SEO .rectangle-2 {
-  width: 100%;
-  max-width: 440px;
-  height: auto;
-}
-
-.SEO .rectangle-3 {
-  width: 100%;
-  max-width: 440px;
-  height: 121px;
-  background: linear-gradient(
-    1deg,
-    rgba(0, 98, 248, 1) 0%,
-    rgba(0, 0, 0, 0) 80%
-  );
-  opacity: 0.1;
-}
-
-.SEO .rectangle-4 {
-  width: 100%;
-  max-width: 440px;
-  height: 121px;
-  background: linear-gradient(
-    1deg,
-    rgba(0, 98, 248, 1) 0%,
-    rgba(0, 0, 0, 0) 80%
-  );
-  opacity: 0.1;
-}
-
-.SEO, .frame {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  max-width: 440px;
-  align-items: flex-start;
-}
-
-.SEO .frame-2,
-.SEO .frame-3 {
-  width: 100%;
-  height: auto;
-}
-
-.SEO .frame-wrapper {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 10px;
-  padding: 25px 0;
-  width: 100%;
-}
-
-.SEO .frame-4 {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  max-width: 411px;
-  align-items: flex-start;
-  gap: 25px;
-}
-
-.SEO .rectangle-5 {
-  width: 113px;
-  height: 45px;
-  background-color: #ffffff;
-}
-
-.SEO .frame-5 {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  max-width: 363px;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 0 10px;
-}
-
-.SEO .whats-included-in {
-  width: 100%;
-  max-width: 309.26px;
-  height: auto;
-}
-
-.SEO .points {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  width: 100%;
-}
-
-.SEO .point {
-  width: 100%;
-  height: 96px;
-}
-
-.SEO .overlap-group {
-  position: relative;
-  width: 100%;
-  max-width: 395px;
-  height: 96px;
-  margin-left: 10px;
-}
-
-.SEO .overlap-group-wrapper {
-  position: absolute;
-  width: 100%;
+html,
+body {
+  margin: 0px;
   height: 100%;
-  top: 0;
-  left: 0;
 }
-
-.SEO .img-wrapper {
-  width: 100%;
-  max-width: 392px;
-  height: 96px;
-  border-radius: 6px;
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
 }
-
-.SEO .local-SEO-GMB,
-.SEO .on-page-SEO-titles,
-.SEO .high-quality,
-.SEO .element-manual-keyword,
-.SEO .weekly-progress,
-.SEO .monthly-strategic,
-.SEO .SEO-blogs-written,
-.SEO .manual-technical {
-  position: absolute;
-  max-width: 100%;
-  height: auto;
+a {
+  text-decoration: none;
 }
-
-.SEO .searching,
-.SEO .link,
-.SEO .puzzle,
-.SEO .report,
-.SEO .img-2,
-.SEO .contract,
-.SEO .files-2,
-.SEO .files-3,
-.SEO .logistics-management {
-  position: absolute;
-  width: 32px;
-  height: 32px;
-  top: 30px;
-  left: 22px;
-}
-
-.SEO .div-wrapper {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 10px;
-  padding: 25px 0;
-  width: 100%;
-}
-
-.SEO .rectangle-6 {
-  width: 113px;
-  height: 35px;
-  background-color: #ffffff;
-}
-
-.SEO .transparent-pricing-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 0 10px;
-  width: 100%;
-}
-
-.SEO .transparent-pricing {
-  width: 100%;
-  max-width: 281.22px;
-  height: auto;
-}
-
-.SEO .FAQ-open-wrapper,
-.SEO .points-2,
-.SEO .points-3 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
-  width: 100%;
-}
-
-.SEO .FAQ-open,
-.SEO .overlap-wrapper,
-.SEO .FAQ-open-2 {
-  width: 100%;
-  max-width: 391.5px;
-}
-
-.SEO .overlap-3,
-.SEO .overlap-4,
-.SEO .overlap-5 {
-  position: relative;
-  width: 100%;
-  max-width: 395px;
-}
-
-.SEO .rectangle-7,
-.SEO .rectangle-8,
-.SEO .rectangle-9 {
-  position: absolute;
-  width: 100%;
-  max-width: 391px;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: #ffffff;
-  border-radius: 6px;
-  border: 1px solid;
-  border-image: linear-gradient(
-    132deg,
-    rgba(109, 173, 255, 1) 0%,
-    rgba(0, 105, 250, 1) 100%
-  ) 1;
-}
-
-.SEO .overlap-group-2 {
-  width: 100%;
-  max-width: 391px;
-  height: 96px;
-  border-radius: 6px;
-}
-
-.SEO .silver-plan,
-.SEO .gold-plan,
-.SEO .platinum-plan {
-  position: absolute;
-  max-width: 100%;
-  height: auto;
-  top: 24px;
-  left: 21px;
-}
-
-.SEO .image {
-  position: absolute;
-  width: 71px;
-  height: 71px;
-  top: 16px;
-  right: 21px;
-}
-
-.SEO .group-8 {
-  position: absolute;
-  width: 100%;
-  max-width: 368px;
-  bottom: 20px;
-  left: 21px;
-}
-
-.SEO .text-wrapper {
-  font-family: "Montserrat", Helvetica;
-  font-weight: 700;
-  color: #000000;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: 1.2;
-}
-
-.SEO .frame-6 {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 10px;
-  padding: 25px 0;
-  width: 100%;
-}
-
-.SEO .frame-7 {
-  width: 100%;
-  max-width: 411px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 25px;
-}
-
-.SEO .why-kolkata {
-  width: 100%;
-  max-width: 288.43px;
-  height: auto;
-}
-
-.SEO .div-2 {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  width: 100%;
-}
-
-.SEO .live-worksheet,
-.SEO .weekly-reports-sent,
-.SEO .monthly-strategy,
-.SEO .curated-keyword,
-.SEO .manual-SEO-audit {
-  position: absolute;
-  max-width: 100%;
-  height: auto;
-  top: 22px;
-  left: 67px;
-}
-
-.SEO .frame-8 {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  max-width: 440px;
-  align-items: flex-start;
-  gap: 25px;
-  padding: 76px 24px;
-}
-
-.SEO .FA-qs {
-  width: 100%;
-  height: auto;
-}
-
-.SEO .frame-9 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 25px;
-  width: 100%;
-}
-
-.SEO .FAQ-open-3,
-.SEO .FAQ-wrapper {
-  width: 100%;
-}
-
-.SEO .FAQ-open-4,
-.SEO .FAQ {
-  width: 100%;
-  max-width: 391px;
-  background-color: #ffffff;
-  border-radius: 6px;
-}
-
-.SEO .how-soon-can-i-see,
-.SEO .is-this-suitable-for,
-.SEO .can-i-cancel-anytime,
-.SEO .how-do-i-track-the,
-.SEO .will-someone-assist {
-  position: absolute;
-  max-width: 100%;
-  height: auto;
-  top: 28px;
-  left: 22px;
-}
-
-.SEO .group-9 {
-  position: absolute;
-  width: 100%;
-  max-width: 366px;
-  bottom: 17px;
-  left: 20px;
-}
-
-.SEO .p {
-  font-family: "Montserrat", Helvetica;
-  font-weight: 700;
-  color: #141414;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: 1.2;
-}
-
-.SEO .ellipse {
-  position: absolute;
-  width: 11px;
-  height: 11px;
-  top: 3px;
-  left: 0;
-  border-radius: 50%;
-  background: linear-gradient(
-    125deg,
-    rgba(0, 98, 248, 1) 0%,
-    rgba(0, 71, 169, 1) 100%
-  );
-}
-
-.SEO .frame-10 {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 10px;
-  padding: 76px 0;
-  width: 100%;
-}
-
-.SEO .frame-11 {
-  width: 100%;
-  height: auto;
-}
-
-.SEO .footer {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  max-width: 441px;
-  align-items: flex-start;
-  background-color: transparent;
-}
-
-.SEO .rectangle-10 {
-  width: 100%;
-  height: 275px;
-  border-radius: 10px;
-  background: linear-gradient(
-    132deg,
-    rgba(109, 173, 255, 1) 0%,
-    rgba(0, 105, 250, 1) 100%
-  );
-}
-
-.SEO .frame-12 {
-  display: flex;
-  flex-direction: column;
-  height: 130px;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
-
-.SEO .frame-13 {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 25px;
-}
-
-.SEO .facebook {
-  width: 36px;
-  height: 36px;
-  background-image: url(https://c.animaapp.com/bpeyWeYm/img/group-16.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.SEO .img-3,
-.SEO .youtube {
-  width: 36px;
-  height: 36px;
-}
-
-.SEO .copyright-all {
-  width: 100%;
-  height: auto;
-}
-
-.SEO .frame-14 {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  max-width: 354px;
-  align-items: flex-start;
-  gap: 40px;
-  padding: 35px 14px;
-}
-
-.SEO .asset-wrapper {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 10px;
-  padding: 0 10px;
-}
-
-.SEO .asset {
-  width: 114.63px;
-  height: 65px;
-  object-fit: cover;
-}
-
-.SEO .group-10,
-.SEO .group-11 {
-  position: relative;
-  width: 100%;
-  max-width: 358px;
-  height: 25px;
-}
-
-.SEO .text-wrapper-2,
-.SEO .text-wrapper-3 {
-  position: absolute;
-  left: 37px;
-  font-family: "Montserrat", Helvetica;
-  font-weight: 700;
-  color: #ffffff;
-  font-size: 22px;
-  letter-spacing: 0;
-  line-height: 23px;
-  white-space: nowrap;
-}
-
-.SEO .image-2,
-.SEO .image-3 {
-  position: absolute;
-  width: 14px;
-  height: 14px;
-  top: 4px;
-  left: 12px;
-}
-
-.SEO .frame-15 {
-  width: 100%;
-  max-width: 440px;
-  height: auto;
-}
-
-.SEO .frame-16 {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  max-width: 411px;
-  align-items: center;
-  gap: 32px;
-  margin: 0 auto;
-}
-
-.SEO .frame-17 {
-  padding: 25px 0;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 25px;
-}
-
-.SEO .kolkatas-fastest-wrapper {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  padding: 0 10px;
-}
-
-.SEO .kolkatas-fastest {
-  width: 100%;
-  max-width: 323.52px;
-  height: auto;
-}
-
-.SEO .element-SEO-professionals,
-.SEO .offices-in-kolkata,
-.SEO .element-layer-quality,
-.SEO .trusted-by-global,
-.SEO .element-white-hat-and {
-  position: absolute;
-  max-width: 100%;
-  height: auto;
-  top: 25px;
-  left: 68px;
-}
-
-.SEO .professionals {
-  position: absolute;
-  width: 32px;
-  height: 32px;
-  top: 29px;
-  left: 24px;
-}
-
-.SEO .group-wrapper {
-  height: 31px;
-}
-
-.SEO .group-12 {
-  position: relative;
-  width: 32px;
-  height: 31px;
-}
-
-.SEO .group-13,
-.SEO .group-14,
-.SEO .group-15,
-.SEO .group-16,
-.SEO .group-17,
-.SEO .group-18,
-.SEO .group-19,
-.SEO .group-20,
-.SEO .group-21 {
-  position: absolute;
-  max-width: 100%;
-  height: auto;
-}
-
-.SEO .img-4,
-.SEO .layer-2,
-.SEO .relationship {
-  position: absolute;
-  width: 32px;
-  height: 32px;
-  top: 32px;
-  left: 24px;
-}
-
-.SEO .frame-18 {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  width: 100%;
-}
-
-.SEO .frame-19 {
-  width: 100%;
-  max-width: 440px;
-  height: auto;
-}
-
-.SEO .overlap-6 {
-  position: relative;
-  width: 100%;
-  max-width: 816px;
-  height: 425px;
-}
-
-.SEO .rectangle-11 {
-  position: absolute;
-  width: 100%;
-  max-width: 440px;
-  height: 425px;
-  top: 0;
-  left: 0;
-  background: linear-gradient(
-    132deg,
-    rgba(109, 173, 255, 1) 0%,
-    rgba(0, 105, 250, 1) 100%
-  );
-}
-
-.SEO .frame-20 {
-  position: absolute;
-  width: 100%;
-  max-width: 816px;
-  height: auto;
-  top: 0;
-  left: 0;
-}
-
-
